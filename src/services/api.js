@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000'; // Backend API URL
+const API_URL = 'https://real-estae-backend-raom.vercel.app/'; // Backend API URL
 
 const api = axios.create({
   baseURL: API_URL,
